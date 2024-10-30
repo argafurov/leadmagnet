@@ -1,0 +1,10 @@
+streamlit==1.39.0
+jmespath==1.0.1
+loguru==0.7.2
+seaborn==0.13.2
+openai==1.52.1
+pandas==2.2.3
+pydantic==2.9.2
+reportlab==4.2.5
+scrapfly-sdk==0.8.18
+tqdm==4.66.5
