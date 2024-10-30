@@ -14,7 +14,7 @@ import streamlit as st
 from loguru import logger as log
 from scrapfly import ScrapeConfig, ScrapflyClient
 
-SCRAPFLY = ScrapflyClient(key=st.secrets["OPENAI_API_KEY"])
+SCRAPFLY = ScrapflyClient(key=st.secrets["SCRAPFLY_KEY"])
 BASE_CONFIG = {
     # Instagram.com requires Anti Scraping Protection bypass feature.
     # for more: https://scrapfly.io/docs/scrape-api/anti-scraping-protection
