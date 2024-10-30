@@ -4,7 +4,7 @@ from typing import Type
 
 from pydantic import BaseModel
 from openai import AsyncOpenAI
-from innorep.llm.utils import batch_process_openai
+from src.innorep.analyze.utils import batch_process_openai
 
 
 class Sentiment(str, Enum):
