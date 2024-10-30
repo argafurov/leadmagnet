@@ -1,8 +1,7 @@
 from pathlib import Path
-import asyncio
 import json
 from datetime import datetime
-from innorep.scrape import instagram
+from src.innorep.scrape import instagram
 
 output = Path(__file__).parent / "scrape_results"
 output.mkdir(exist_ok=True)
